@@ -15,7 +15,7 @@ const systemInstruction = "anda adalah KruAI, AI Desainer video";
 class GeminiService {
   constructor() {
     this.model = genAI.getGenerativeModel({ 
-      model: "gemini-2.0-flash-thinking-exp-01-21h",
+      model: "gemini-2.0-flash",
       generationConfig: generationConfig,
     });
     
